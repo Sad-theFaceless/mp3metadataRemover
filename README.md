@@ -1,12 +1,15 @@
 # mp3metadataRemover
-A bash script to remove the metadatas from one or multiple mp3 files.
-Does not remove the **Title** nor the **Contributing artists** metadatas (unless they are ID3v1). 
+A bash script to remove the metadatas from one or multiple mp3 files.  
+Does not remove the ***Title*** nor the ***Contributing artists*** metadatas (unless they are ID3v1). 
 
 ## Download
 ### GNU/Linux
 ```bash
 wget https://raw.githubusercontent.com/Sad-theFaceless/mp3metadataRemover/main/mp3metadataRemover.sh && chmod +x mp3metadataRemover.sh
 ```
+#### Dependencies
+- id3v2
+- mp3check
 
 ## How to use
 Works for both single and multiple files
