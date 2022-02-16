@@ -25,7 +25,7 @@ auto_update () {
         echo -E "$file_network" > "$tmpfile"
         chown --reference="$2" "$tmpfile"
         chmod --reference="$2" "$tmpfile"
-        mv "$tmpfile" "$2"
+        mv "$tmpfile" "$(realpath "$2")"
         exec "${@:2}"
     fi
 }
