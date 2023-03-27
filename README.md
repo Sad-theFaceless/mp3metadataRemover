@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/Sad-theFaceless/mp3metadataRemover/main/m
 - id3v2
 - mp3check
 
-## How to use
+## Usage
 Works for both single and multiple files
 ```bash
 ./mp3metadataRemover.sh $FILE.mp3 [...]
